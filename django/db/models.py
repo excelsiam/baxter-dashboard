@@ -8,7 +8,7 @@ class BasicInformation(models.Model):
     gender = models.CharField(null=True, max_length=10)
     birth_date = models.DateField(null=True)
     education = models.CharField(null=True, max_length=20)
-    payment = models.IntegerField(null=True)
+    payment = models.CharField(null=True, max_length=20)
     primary_kidney_disease = models.CharField(null=True, max_length=10)
     dm_status = models.BooleanField(null=True, default=False)
     pd_initiation_date = models.DateField(null=True)
