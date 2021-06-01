@@ -26,7 +26,7 @@ def create_basic(request, payload: BasicInformationIn):
     return {"id": info.id}
 
 
-@api.put("/basics/{id}")
+@api.post("/basics_update/{id}")
 def update_basic(request, id: int, payload: BasicInformationIn):
     instance = get_object_or_404(BasicInformation, id=id)
     for attr, value in payload.dict().items():
@@ -35,7 +35,7 @@ def update_basic(request, id: int, payload: BasicInformationIn):
     return {"success": True}
 
 
-@api.delete("/basics/{id}")
+@api.post("/basics_delete/{id}")
 def delete_basic(request, id: int):
     instance = get_object_or_404(BasicInformation, id=id)
     instance.delete()

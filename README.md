@@ -20,6 +20,7 @@ $ npm run generate
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
 
 ```
+cd C:\Users\Gusts\Desktop\baxter-dashboard
 cd django
 env\Scripts\activate
 python manage.py runserver

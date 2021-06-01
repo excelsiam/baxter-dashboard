@@ -1,6 +1,8 @@
 {
   "name": "baxter-dashboard",
-  "version": "1.0.0",
+  "version": "0.0.1",
+  "description": "Baxter Dashboard",
+  "author": "cristijora",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -9,15 +11,36 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.13.1",
+    "@fullcalendar/core": "^4.3.1",
+    "@fullcalendar/daygrid": "^4.3.0",
+    "@fullcalendar/interaction": "^4.3.0",
+    "@fullcalendar/timegrid": "^4.3.0",
+    "@fullcalendar/vue": "^4.3.1",
+    "@nuxtjs/axios": "^5.13.5",
     "@nuxtjs/pwa": "^3.3.5",
-    "core-js": "^3.9.1",
-    "nuxt": "^2.15.3",
-    "view-design": "^4.5.0"
+    "bootstrap": "4.6.0",
+    "chart.js": "^2.9.4",
+    "d3": "^6.6.2",
+    "datamaps": "^0.5.9",
+    "element-ui": "^2.11.1",
+    "es6-promise": "^4.2.8",
+    "fuse.js": "^6.4.6",
+    "nouislider": "^14.6.4",
+    "nuxt": "^2.15.4",
+    "nuxt-i18n": "^6.22.3",
+    "perfect-scrollbar": "^1.5.0",
+    "register-service-worker": "^1.7.2",
+    "sweetalert2": "^10.15.7",
+    "tween.js": "^16.6.0",
+    "vee-validate": "^2.0.5",
+    "vue-chartjs": "^3.5.1",
+    "vue-i18n": "^8.24.2",
+    "vue2-google-maps": "^0.8.4",
+    "vue2-transitions": "^0.3.0"
   },
   "devDependencies": {
-    "eslint-config-prettier": "^8.1.0",
-    "eslint-plugin-prettier": "^3.3.1",
-    "prettier": "^2.2.1"
+    "babel-plugin-component": "^1.1.1",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.1"
   }
 }
